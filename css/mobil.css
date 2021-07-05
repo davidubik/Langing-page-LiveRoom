@@ -1,0 +1,152 @@
+
+/*                                  MOBIL                       */
+
+@media screen and (max-width: 585px) {
+    
+/*                             HEADER             */
+
+.header {
+    background-color: #43a3da; 
+    width: 100%;
+    height: 100vh;
+    /* transition: all 0.4s ease-in-out; */
+}
+
+/*                          HEADER section 1 img & txt       */
+.header-section1{
+    margin-top: .5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-section1 .img-outside001{
+    width: 50%;
+    border-radius: 50px;
+}
+
+.header-section1 .txt-container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Varela Round';
+    color: #414549;
+    font-size: 1.5em;
+    
+}
+/*                               Header Section Pitch             */
+
+.flacon{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*                                PITCH        */
+.pitch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+
+#h2-pitch{
+    font-family: 'Montserrat', sans-serif; 
+    color: #fff;
+    font-size: 2em;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #414549;
+    text-align: center;
+}
+ 
+ 
+ .maximmo{
+    border-radius: 20px;
+    width: 70%;
+}
+ 
+ .scroll-me{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-top: 10%;
+ }
+ 
+.scroll-me :nth-child(2){
+    width: 80px;
+}
+
+ #h2-scroll-me{
+        color: #f8c61a;
+        font-size: 2em;
+        font-family: 'Varela Round';
+    }
+/*                                   Header FLÈCHE        */
+
+
+
+/*                                MAIN CONTAINER          */
+
+#container {
+    width: 100%;
+}
+
+
+#h1-liveroom {
+    font-family: 'Varela Round', sans-serif;
+    color :#414549;
+    font-size: 3em;
+    text-align: center;
+}
+
+#logo-envisite{
+    width: 50%;
+}
+
+.container-titre-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*                                      TXT IMG MIROIR      */
+
+.txt-img-miroir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-img-miroir-1 :nth-child(1){
+    order: 2;
+}
+
+
+.txt-img-miroir-4 :nth-child(1){
+   order: 2;
+}
+
+.txt-img-miroir-6 :nth-child(1){
+    order: 2;
+}
+
+.txt-miroir{
+    text-align: center;
+    margin-top: 5%;
+    color: #414549;
+    font-family: 'Open Sans';
+    font-size: 1em;
+}
+
+
+.img-miroir{
+    width: 80%;
+}
+
+
+
+}
