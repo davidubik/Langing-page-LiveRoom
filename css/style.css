@@ -187,7 +187,7 @@
 
 /*                  @MEDIA QUERIES   BREAKPOINT 2                       */
 
-@media screen and (max-width :1672px){
+@media screen and (max-width:1672px){
     #h2-pitch{
         font-family: 'Montserrat', sans-serif; 
         color: #fff;
@@ -199,7 +199,7 @@
 
 /*                  @MEDIA QUERIES   BREAKPOINT 3                        */
 
-@media screen and (max-width: 1610px) {
+@media screen and (max-width:1610px) {
     
     .header{
         background-color: #43a3da;
@@ -331,7 +331,7 @@
 
 }
 
-@media screen and (max-width: 1507px) {
+@media screen and (max-width:1507px) {
     .txt-miroir4
     {
         font-size: 1.3em;
@@ -339,7 +339,7 @@
     }
 }
 
-@media screen and (max-width: 1262px) {
+@media screen and (max-width:1262px) {
     .txt-miroir4
     {
         font-size: 1.3em;
@@ -347,7 +347,23 @@
     }
 }
 
-@media screen and (max-width: 717px) {
+@media screen and (max-width:812px) {
+    .txt-miroir4
+    {
+        font-size: 1em;
+        margin-top: -2%;
+    }
+}
+
+@media screen  and (max-width:795px) {
+    .txt-miroir4
+    {
+        font-size: 1em;
+        margin-top: -2%;
+    }
+}
+
+@media screen and (max-width:717px) {
     .txt-miroir4
     {
         font-size: 1.1em;
