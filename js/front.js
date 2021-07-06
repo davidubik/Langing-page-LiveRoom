@@ -25,7 +25,7 @@ function scrollingTo(){
 	});
 	setTimeout(function(){
 		headerId.classList.remove("header-active");
-	},2000);
+	},100);
 }
 
 function wheelHandler(){
