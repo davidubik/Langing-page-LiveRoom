@@ -85,6 +85,10 @@
     justify-content: center;
 }
 
+.scroll-me :nth-child(2){
+    width: 93px;
+}
+
 #h2-scroll-me{
     color: #f8c61a;
     font-size: 3em;
@@ -172,6 +176,7 @@
 
 }
 
+
 /*                  @MEDIA QUERIES   BREAKPOINT 1                        */
 
 @media screen and(max-width:1687px){
@@ -181,6 +186,9 @@
         font-size: 2.4em;
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: #414549;
+    }
+    .scroll-me :nth-child(2){
+        width: 93px;
     }
 
 }
@@ -194,6 +202,9 @@
         font-size: 2.4em;
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: #414549;
+    }
+    .scroll-me :nth-child(2){
+        width: 93px;
     }
 }
 
@@ -246,6 +257,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.scroll-me :nth-child(2){
+    width: 93px;
 }
 
 #h2-scroll-me{
