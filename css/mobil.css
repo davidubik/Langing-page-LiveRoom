@@ -1,5 +1,13 @@
 
 /*                                  MOBIL                       */
+@media screen and (max-width:590px) {
+    .txt-miroir4
+    {
+        font-size: 1em;
+        margin-top: -2%;
+    }
+}
+
 
 @media screen and (max-width: 585px) {
     
@@ -22,7 +30,7 @@
 
 .header-section1 .img-outside001{
     width: 50%;
-    border-radius: 50px;
+    border-radius: 50px; 
 }
 
 .header-section1 .txt-container{
